@@ -1,0 +1,26 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": ["./tsconfig.json"]
+    },
+    "plugins": ["@typescript-eslint"],
+    "ignorePatterns": ["**/*.js", "**/*.d.ts", "dist/*", "codegen.ts"],
+    "rules": {
+        "no-undef": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
+        "quotes": ["error", "single"],
+        "no-console": "warn",
+        "@typescript-eslint/no-explicit-any": 0
+    }
+}

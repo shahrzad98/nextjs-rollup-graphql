@@ -1,0 +1,5 @@
+- Loyalty credit doc in useUser hook
+- useOrder doc handleChangeStatus
+- useLoyaltyLog doc in profile
+- update useNotificationSettings select and de select
+- store opening function doc
