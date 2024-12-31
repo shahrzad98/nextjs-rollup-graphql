@@ -1,7 +1,6 @@
 {
 
     "version": "0.6.6",
-    "description": "Client side Digify framework",
     "private": false,
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -18,9 +17,6 @@
         "lint": "eslint .",
         "lint:fix": "eslint . --ext .ts,.tsx --fix",
         "codegen": "graphql-codegen"
-    },
-    "publishConfig": {
-        "@digify:registry": "https://gitlab.digify.ir/api/v4/projects/132/packages/npm/"
     },
     "peerDependencies": {
         "@apollo/client": ">= 3.5.10",
@@ -43,7 +39,6 @@
         "node": ">= 16.13.0"
     },
     "keywords": [],
-    "author": "Digify frontend team",
     "license": "ISC",
     "devDependencies": {
         "@apollo/client": "^3.5.10",
